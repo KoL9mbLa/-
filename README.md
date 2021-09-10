@@ -5,6 +5,7 @@
 Данная команда генирирует `jar` файл по пути `build\libs`
 
 2. Для запуска jar файла через докер контейнер требуется Dockerfile
+
 ````
 FROM openjdk:8-jdk-alpine
 ARG JAR_FILE
